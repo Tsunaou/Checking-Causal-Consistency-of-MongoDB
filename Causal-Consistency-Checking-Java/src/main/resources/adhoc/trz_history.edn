@@ -1,0 +1,8 @@
+{:type :ok, :f :write, :value [x 1], :process 0, :time 1, :position 1, :link nil, :index 0}
+{:type :ok, :f :write, :value [x 2], :process 0, :time 2, :position 2, :link nil, :index 1}
+{:type :ok, :f :read, :value [x 1], :process 1, :time 3, :position 3, :link nil, :index 2}
+{:type :ok, :f :read, :value [x 2], :process 1, :time 4, :position 4, :link nil, :index 3}
+{:type :ok, :f :write, :value [x 3], :process 1, :time 5, :position 5, :link nil, :index 4}
+{:type :ok, :f :read, :value [x 1], :process 2, :time 6, :position 6, :link nil, :index 5}
+;{:type :ok, :f :read, :value [x 2], :process 2, :time 7, :position 7, :link nil, :index 6}
+{:type :ok, :f :read, :value [x 3], :process 2, :time 8, :position 8, :link nil, :index 7}

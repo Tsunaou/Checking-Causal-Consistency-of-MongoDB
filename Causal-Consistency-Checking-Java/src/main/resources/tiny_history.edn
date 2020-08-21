@@ -1,0 +1,200 @@
+{:type :invoke, :f :write, :value [0 1], :process 1, :time 332127161, :index 0}
+{:type :invoke, :f :write, :value [2 1], :process 5, :time 467038751, :index 1}
+{:type :ok, :f :write, :value [0 1], :process 1, :time 588011265, :position 6811491125530984454, :link nil, :index 2}
+{:type :invoke, :f :write, :value [4 1], :process 8, :time 609822795, :index 3}
+{:type :ok, :f :write, :value [2 1], :process 5, :time 611940303, :position 6811491125530984455, :link nil, :index 4}
+{:type :ok, :f :write, :value [4 1], :process 8, :time 775091272, :position 6811491125530984456, :link nil, :index 5}
+{:type :invoke, :f :write, :value [1 1], :process 2, :time 845852648, :index 6}
+{:type :invoke, :f :write, :value [3 1], :process 6, :time 890683301, :index 7}
+{:type :ok, :f :write, :value [1 1], :process 2, :time 1014314761, :position 6811491125530984457, :link nil, :index 8}
+{:type :ok, :f :write, :value [3 1], :process 6, :time 1041676361, :position 6811491125530984458, :link nil, :index 9}
+{:type :invoke, :f :read, :value [4 nil], :process 9, :time 1146792416, :index 10}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 1149616179, :index 11}
+{:type :ok, :f :read, :value [2 1], :process 5, :time 1196887163, :position 6811491125530984458, :link 6811491125530984455, :index 12}
+{:type :invoke, :f :read, :value [0 nil], :process 0, :time 1293957861, :index 13}
+{:type :ok, :f :read, :value [4 1], :process 9, :time 1329657625, :position 6811491125530984458, :link nil, :index 14}
+{:type :ok, :f :read, :value [0 1], :process 0, :time 1436276759, :position 6811491125530984458, :link nil, :index 15}
+{:type :invoke, :f :read, :value [3 nil], :process 7, :time 1443741760, :index 16}
+{:type :invoke, :f :write, :value [2 2], :process 4, :time 1509491790, :index 17}
+{:type :invoke, :f :write, :value [0 2], :process 1, :time 1582862992, :index 18}
+{:type :ok, :f :read, :value [3 1], :process 7, :time 1610739439, :position 6811491125530984458, :link nil, :index 19}
+{:type :ok, :f :write, :value [0 2], :process 1, :time 1627203912, :position 6811491129825951745, :link 6811491125530984454, :index 20}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 1634645607, :index 21}
+{:type :ok, :f :write, :value [2 2], :process 4, :time 1683836230, :position 6811491129825951746, :link nil, :index 22}
+{:type :ok, :f :read, :value [1 1], :process 3, :time 1782888234, :position 6811491129825951746, :link nil, :index 23}
+{:type :invoke, :f :write, :value [3 2], :process 6, :time 1911716101, :index 24}
+{:type :ok, :f :write, :value [3 2], :process 6, :time 1951331096, :position 6811491129825951747, :link 6811491125530984458, :index 25}
+{:type :invoke, :f :write, :value [4 2], :process 9, :time 2018443121, :index 26}
+{:type :ok, :f :write, :value [4 2], :process 9, :time 2063475879, :position 6811491129825951748, :link 6811491125530984458, :index 27}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 2195840074, :index 28}
+{:type :ok, :f :read, :value [4 2], :process 8, :time 2229151262, :position 6811491129825951748, :link 6811491125530984456, :index 29}
+{:type :invoke, :f :write, :value [1 2], :process 2, :time 2410665788, :index 30}
+{:type :ok, :f :write, :value [1 2], :process 2, :time 2454143027, :position 6811491134120919041, :link 6811491125530984457, :index 31}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 2557933096, :index 32}
+{:type :ok, :f :read, :value [2 2], :process 5, :time 2589814784, :position 6811491134120919041, :link 6811491125530984458, :index 33}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 2739347833, :index 34}
+{:type :ok, :f :read, :value [1 2], :process 3, :time 2773164143, :position 6811491134120919041, :link 6811491129825951746, :index 35}
+{:type :invoke, :f :write, :value [2 3], :process 4, :time 2898820861, :index 36}
+{:type :ok, :f :write, :value [2 3], :process 4, :time 2940722648, :position 6811491134120919042, :link 6811491129825951746, :index 37}
+{:type :invoke, :f :read, :value [2 nil], :process 4, :time 3106565568, :index 38}
+{:type :ok, :f :read, :value [2 3], :process 4, :time 3143873318, :position 6811491134120919042, :link 6811491134120919042, :index 39}
+{:type :invoke, :f :write, :value [1 3], :process 3, :time 3176808798, :index 40}
+{:type :invoke, :f :read, :value [3 nil], :process 6, :time 3185975355, :index 41}
+{:type :ok, :f :read, :value [3 2], :process 6, :time 3218334607, :position 6811491134120919042, :link 6811491129825951747, :index 42}
+{:type :invoke, :f :read, :value [0 nil], :process 0, :time 3232374479, :index 43}
+{:type :ok, :f :write, :value [1 3], :process 3, :time 3237834918, :position 6811491134120919043, :link 6811491134120919041, :index 44}
+{:type :invoke, :f :write, :value [2 4], :process 4, :time 3247077994, :index 45}
+{:type :invoke, :f :write, :value [3 3], :process 7, :time 3259554183, :index 46}
+{:type :ok, :f :read, :value [0 2], :process 0, :time 3262297704, :position 6811491134120919043, :link 6811491125530984458, :index 47}
+{:type :ok, :f :write, :value [2 4], :process 4, :time 3287709668, :position 6811491138415886337, :link 6811491134120919042, :index 48}
+{:type :ok, :f :write, :value [3 3], :process 7, :time 3300805314, :position 6811491138415886338, :link 6811491125530984458, :index 49}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 3476490917, :index 50}
+{:type :ok, :f :read, :value [1 3], :process 3, :time 3512819584, :position 6811491138415886338, :link 6811491134120919043, :index 51}
+{:type :invoke, :f :write, :value [0 3], :process 1, :time 3567880785, :index 52}
+{:type :ok, :f :write, :value [0 3], :process 1, :time 3607095025, :position 6811491138415886339, :link 6811491129825951745, :index 53}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 3806986778, :index 54}
+{:type :ok, :f :read, :value [0 3], :process 1, :time 3840293884, :position 6811491138415886339, :link 6811491138415886339, :index 55}
+{:type :invoke, :f :write, :value [4 3], :process 9, :time 3908678007, :index 56}
+{:type :ok, :f :write, :value [4 3], :process 9, :time 3953431348, :position 6811491138415886340, :link 6811491129825951748, :index 57}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 3956968643, :index 58}
+{:type :invoke, :f :write, :value [4 4], :process 9, :time 3982020654, :index 59}
+{:type :ok, :f :read, :value [4 3], :process 8, :time 3990131067, :position 6811491138415886340, :link 6811491129825951748, :index 60}
+{:type :ok, :f :write, :value [4 4], :process 9, :time 4025348637, :position 6811491138415886341, :link 6811491138415886340, :index 61}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 4030740502, :index 62}
+{:type :ok, :f :read, :value [2 4], :process 5, :time 4061272027, :position 6811491138415886341, :link 6811491134120919041, :index 63}
+{:type :invoke, :f :write, :value [2 5], :process 4, :time 4099787034, :index 64}
+{:type :invoke, :f :write, :value [0 4], :process 0, :time 4136717352, :index 65}
+{:type :ok, :f :write, :value [2 5], :process 4, :time 4140841394, :position 6811491138415886342, :link 6811491138415886337, :index 66}
+{:type :ok, :f :write, :value [0 4], :process 0, :time 4171884105, :position 6811491138415886343, :link 6811491134120919043, :index 67}
+{:type :invoke, :f :write, :value [1 4], :process 2, :time 4289769345, :index 68}
+{:type :ok, :f :write, :value [1 4], :process 2, :time 4342116782, :position 6811491142710853633, :link 6811491134120919041, :index 69}
+{:type :invoke, :f :read, :value [1 nil], :process 2, :time 4361589147, :index 70}
+{:type :ok, :f :read, :value [1 4], :process 2, :time 4403112887, :position 6811491142710853633, :link 6811491142710853633, :index 71}
+{:type :invoke, :f :read, :value [3 nil], :process 6, :time 4454036866, :index 72}
+{:type :ok, :f :read, :value [3 3], :process 6, :time 4484320165, :position 6811491142710853633, :link 6811491134120919042, :index 73}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 4671697052, :index 74}
+{:type :invoke, :f :write, :value [1 5], :process 2, :time 4690576127, :index 75}
+{:type :ok, :f :read, :value [2 5], :process 5, :time 4701679669, :position 6811491142710853633, :link 6811491138415886341, :index 76}
+{:type :ok, :f :write, :value [1 5], :process 2, :time 4732538132, :position 6811491142710853634, :link 6811491142710853633, :index 77}
+{:type :invoke, :f :read, :value [4 nil], :process 9, :time 4732773905, :index 78}
+{:type :ok, :f :read, :value [4 4], :process 9, :time 4764975605, :position 6811491142710853634, :link 6811491138415886341, :index 79}
+{:type :invoke, :f :write, :value [2 6], :process 4, :time 4768627965, :index 80}
+{:type :ok, :f :write, :value [2 6], :process 4, :time 4805417170, :position 6811491142710853635, :link 6811491138415886342, :index 81}
+{:type :invoke, :f :write, :value [3 4], :process 7, :time 4947631465, :index 82}
+{:type :ok, :f :write, :value [3 4], :process 7, :time 4994275257, :position 6811491142710853636, :link 6811491138415886338, :index 83}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 5115778824, :index 84}
+{:type :ok, :f :read, :value [1 5], :process 3, :time 5148639469, :position 6811491142710853636, :link 6811491138415886338, :index 85}
+{:type :invoke, :f :write, :value [4 5], :process 9, :time 5169589863, :index 86}
+{:type :ok, :f :write, :value [4 5], :process 9, :time 5211017433, :position 6811491142710853637, :link 6811491142710853634, :index 87}
+{:type :invoke, :f :write, :value [1 6], :process 2, :time 5239401506, :index 88}
+{:type :ok, :f :write, :value [1 6], :process 2, :time 5315460824, :position 6811491147005820929, :link 6811491142710853634, :index 89}
+{:type :invoke, :f :read, :value [3 nil], :process 7, :time 5417943767, :index 90}
+{:type :ok, :f :read, :value [3 4], :process 7, :time 5452561323, :position 6811491147005820929, :link 6811491142710853636, :index 91}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 5507591955, :index 92}
+{:type :invoke, :f :read, :value [1 nil], :process 2, :time 5512893944, :index 93}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 5538815207, :index 94}
+{:type :ok, :f :read, :value [4 5], :process 8, :time 5538994643, :position 6811491147005820929, :link 6811491138415886340, :index 95}
+{:type :ok, :f :read, :value [1 6], :process 2, :time 5546187389, :position 6811491147005820929, :link 6811491147005820929, :index 96}
+{:type :ok, :f :read, :value [0 4], :process 1, :time 5567639120, :position 6811491147005820929, :link 6811491138415886339, :index 97}
+{:type :invoke, :f :write, :value [3 5], :process 6, :time 5595874808, :index 98}
+{:type :ok, :f :write, :value [3 5], :process 6, :time 5632382074, :position 6811491147005820930, :link 6811491142710853633, :index 99}
+{:type :invoke, :f :read, :value [3 nil], :process 7, :time 5710691885, :index 100}
+{:type :invoke, :f :write, :value [0 5], :process 0, :time 5716344687, :index 101}
+{:type :ok, :f :read, :value [3 5], :process 7, :time 5745799960, :position 6811491147005820930, :link 6811491147005820929, :index 102}
+{:type :ok, :f :write, :value [0 5], :process 0, :time 5757204326, :position 6811491147005820931, :link 6811491138415886343, :index 103}
+{:type :invoke, :f :write, :value [4 6], :process 9, :time 5831164907, :index 104}
+{:type :invoke, :f :read, :value [2 nil], :process 4, :time 5854000207, :index 105}
+{:type :ok, :f :write, :value [4 6], :process 9, :time 5874008360, :position 6811491147005820932, :link 6811491142710853637, :index 106}
+{:type :ok, :f :read, :value [2 6], :process 4, :time 5892317013, :position 6811491147005820932, :link 6811491142710853635, :index 107}
+{:type :invoke, :f :write, :value [1 7], :process 3, :time 6110991464, :index 108}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 6284387682, :index 109}
+{:type :ok, :f :read, :value [4 6], :process 8, :time 6318884030, :position 6811491147005820933, :link 6811491147005820929, :index 110}
+{:type :invoke, :f :write, :value [3 6], :process 7, :time 6648442692, :index 111}
+{:type :ok, :f :write, :value [1 7], :process 3, :time 6658531864, :position 6811491147005820933, :link 6811491142710853636, :index 112}
+{:type :ok, :f :write, :value [3 6], :process 7, :time 6696891578, :position 6811491151300788225, :link 6811491147005820930, :index 113}
+{:type :invoke, :f :write, :value [2 7], :process 5, :time 6699263251, :index 114}
+{:type :ok, :f :write, :value [2 7], :process 5, :time 6735469998, :position 6811491151300788226, :link 6811491142710853633, :index 115}
+{:type :invoke, :f :read, :value [1 nil], :process 2, :time 6759650532, :index 116}
+{:type :ok, :f :read, :value [1 7], :process 2, :time 6792669968, :position 6811491151300788226, :link 6811491147005820929, :index 117}
+{:type :invoke, :f :read, :value [2 nil], :process 4, :time 6862909823, :index 118}
+{:type :ok, :f :read, :value [2 7], :process 4, :time 6896325713, :position 6811491151300788226, :link 6811491147005820932, :index 119}
+{:type :invoke, :f :read, :value [3 nil], :process 6, :time 7316461245, :index 120}
+{:type :ok, :f :read, :value [3 6], :process 6, :time 7352299545, :position 6811491151300788226, :link 6811491147005820930, :index 121}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 7475313542, :index 122}
+{:type :ok, :f :read, :value [0 5], :process 1, :time 7505049396, :position 6811491151300788226, :link 6811491147005820929, :index 123}
+{:type :invoke, :f :write, :value [2 8], :process 5, :time 7527810786, :index 124}
+{:type :invoke, :f :write, :value [4 7], :process 8, :time 7565675256, :index 125}
+{:type :ok, :f :write, :value [2 8], :process 5, :time 7566400705, :position 6811491155595755521, :link 6811491151300788226, :index 126}
+{:type :invoke, :f :write, :value [0 6], :process 0, :time 7594674681, :index 127}
+{:type :ok, :f :write, :value [4 7], :process 8, :time 7611876591, :position 6811491155595755522, :link 6811491147005820933, :index 128}
+{:type :ok, :f :write, :value [0 6], :process 0, :time 7628935824, :position 6811491155595755523, :link 6811491147005820931, :index 129}
+{:type :invoke, :f :read, :value [4 nil], :process 9, :time 7811578076, :index 130}
+{:type :ok, :f :read, :value [4 7], :process 9, :time 7846060210, :position 6811491155595755523, :link 6811491147005820932, :index 131}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 7870872781, :index 132}
+{:type :ok, :f :read, :value [0 6], :process 1, :time 7900780567, :position 6811491155595755523, :link 6811491151300788226, :index 133}
+{:type :invoke, :f :write, :value [0 7], :process 0, :time 8028423545, :index 134}
+{:type :ok, :f :write, :value [0 7], :process 0, :time 8065220710, :position 6811491155595755524, :link 6811491155595755523, :index 135}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 8108893144, :index 136}
+{:type :ok, :f :read, :value [2 8], :process 5, :time 8140764044, :position 6811491155595755524, :link 6811491155595755521, :index 137}
+{:type :invoke, :f :write, :value [3 7], :process 7, :time 8251856420, :index 138}
+{:type :ok, :f :write, :value [3 7], :process 7, :time 8294690619, :position 6811491159890722817, :link 6811491151300788225, :index 139}
+{:type :invoke, :f :write, :value [1 8], :process 2, :time 8335609109, :index 140}
+{:type :ok, :f :write, :value [1 8], :process 2, :time 8404925623, :position 6811491159890722818, :link 6811491151300788226, :index 141}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 8533643444, :index 142}
+{:type :invoke, :f :write, :value [4 8], :process 9, :time 8556870480, :index 143}
+{:type :ok, :f :read, :value [1 8], :process 3, :time 8573271837, :position 6811491159890722818, :link 6811491147005820933, :index 144}
+{:type :ok, :f :write, :value [4 8], :process 9, :time 8606368702, :position 6811491159890722819, :link 6811491155595755523, :index 145}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 8772968035, :index 146}
+{:type :ok, :f :read, :value [0 7], :process 1, :time 8806831043, :position 6811491159890722819, :link 6811491155595755523, :index 147}
+{:type :invoke, :f :write, :value [2 9], :process 4, :time 8854067267, :index 148}
+{:type :ok, :f :write, :value [2 9], :process 4, :time 8905291763, :position 6811491159890722820, :link 6811491151300788226, :index 149}
+{:type :invoke, :f :read, :value [3 nil], :process 7, :time 8913598150, :index 150}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 8918641678, :index 151}
+{:type :invoke, :f :write, :value [1 9], :process 2, :time 8936778589, :index 152}
+{:type :ok, :f :read, :value [3 7], :process 7, :time 8947012117, :position 6811491159890722820, :link 6811491159890722817, :index 153}
+{:type :ok, :f :read, :value [4 8], :process 8, :time 8951377767, :position 6811491159890722820, :link 6811491155595755522, :index 154}
+{:type :ok, :f :write, :value [1 9], :process 2, :time 8976839244, :position 6811491159890722821, :link 6811491159890722818, :index 155}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 9001398360, :index 156}
+{:type :ok, :f :read, :value [2 9], :process 5, :time 9033647760, :position 6811491159890722821, :link 6811491155595755524, :index 157}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 9035400406, :index 158}
+{:type :ok, :f :read, :value [1 9], :process 3, :time 9070425167, :position 6811491159890722821, :link 6811491159890722818, :index 159}
+{:type :invoke, :f :write, :value [4 9], :process 9, :time 9110967788, :index 160}
+{:type :ok, :f :write, :value [4 9], :process 9, :time 9155489726, :position 6811491159890722822, :link 6811491159890722819, :index 161}
+{:type :invoke, :f :write, :value [3 8], :process 6, :time 9266219857, :index 162}
+{:type :ok, :f :write, :value [3 8], :process 6, :time 9308124211, :position 6811491164185690113, :link 6811491151300788226, :index 163}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 9508346132, :index 164}
+{:type :ok, :f :read, :value [4 9], :process 8, :time 9546041527, :position 6811491164185690113, :link 6811491159890722820, :index 165}
+{:type :invoke, :f :write, :value [0 8], :process 0, :time 9821245109, :index 166}
+{:type :ok, :f :write, :value [0 8], :process 0, :time 9866266741, :position 6811491164185690114, :link 6811491155595755524, :index 167}
+{:type :invoke, :f :write, :value [5 1], :process 2, :time 9878112823, :index 168}
+{:type :ok, :f :write, :value [5 1], :process 2, :time 9918273589, :position 6811491164185690115, :link 6811491159890722821, :index 169}
+{:type :invoke, :f :write, :value [6 1], :process 5, :time 10026874657, :index 170}
+{:type :invoke, :f :read, :value [6 nil], :process 4, :time 10056236170, :index 171}
+{:type :ok, :f :write, :value [6 1], :process 5, :time 10063080342, :position 6811491164185690116, :link 6811491159890722821, :index 172}
+{:type :ok, :f :read, :value [6 1], :process 4, :time 10091678333, :position 6811491164185690116, :link 6811491159890722820, :index 173}
+{:type :invoke, :f :read, :value [0 nil], :process 0, :time 10189954334, :index 174}
+{:type :ok, :f :read, :value [0 8], :process 0, :time 10219075579, :position 6811491164185690116, :link 6811491164185690114, :index 175}
+{:type :invoke, :f :read, :value [3 nil], :process 6, :time 10280072235, :index 176}
+{:type :info, :f :move, :process :nemesis, :time 10286363611, :index 177}
+{:type :info, :f :move, :process :nemesis, :time 10294073103, :error "indeterminate: ", :index 178}
+{:type :ok, :f :read, :value [3 8], :process 6, :time 10307902484, :position 6811491164185690116, :link 6811491164185690113, :index 179}
+{:type :invoke, :f :write, :value [0 9], :process 1, :time 10455965454, :index 180}
+{:type :ok, :f :write, :value [0 9], :process 1, :time 10492421625, :position 6811491168480657409, :link 6811491159890722819, :index 181}
+{:type :invoke, :f :write, :value [3 9], :process 7, :time 10697900068, :index 182}
+{:type :ok, :f :write, :value [3 9], :process 7, :time 10745030516, :position 6811491168480657410, :link 6811491159890722820, :index 183}
+{:type :invoke, :f :write, :value [7 1], :process 8, :time 10777762194, :index 184}
+{:type :info, :f :move, :process :nemesis, :time 10794540953, :index 185}
+{:type :info, :f :move, :process :nemesis, :time 10797598256, :error "indeterminate: ", :index 186}
+{:type :ok, :f :write, :value [7 1], :process 8, :time 10818542218, :position 6811491168480657411, :link 6811491164185690113, :index 187}
+{:type :invoke, :f :read, :value [5 nil], :process 3, :time 10878303787, :index 188}
+{:type :ok, :f :read, :value [5 1], :process 3, :time 10910898030, :position 6811491168480657411, :link 6811491159890722821, :index 189}
+{:type :invoke, :f :read, :value [7 nil], :process 9, :time 10922407025, :index 190}
+{:type :ok, :f :read, :value [7 1], :process 9, :time 10963279687, :position 6811491168480657411, :link 6811491159890722822, :index 191}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 11013216666, :index 192}
+{:type :invoke, :f :write, :value [8 1], :process 0, :time 11021646455, :index 193}
+{:type :ok, :f :read, :value [0 9], :process 1, :time 11041851603, :position 6811491168480657411, :link 6811491168480657409, :index 194}
+{:type :ok, :f :write, :value [8 1], :process 0, :time 11058036959, :position 6811491168480657412, :link 6811491164185690116, :index 195}
+{:type :invoke, :f :read, :value [8 nil], :process 0, :time 11062418107, :index 196}
+{:type :ok, :f :read, :value [8 1], :process 0, :time 11091640125, :position 6811491168480657412, :link 6811491168480657412, :index 197}
+{:type :invoke, :f :write, :value [7 2], :process 9, :time 11103127137, :index 198}
+{:type :invoke, :f :write, :vlue [6 2], :process 4, :time 11121658156, :index 19}

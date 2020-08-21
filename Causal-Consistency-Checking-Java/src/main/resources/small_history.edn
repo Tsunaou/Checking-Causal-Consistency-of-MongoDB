@@ -1,0 +1,400 @@
+{:type :invoke, :f :write, :value [0 1], :process 1, :time 332127161, :index 0}
+{:type :invoke, :f :write, :value [2 1], :process 5, :time 467038751, :index 1}
+{:type :ok, :f :write, :value [0 1], :process 1, :time 588011265, :position 6811491125530984454, :link nil, :index 2}
+{:type :invoke, :f :write, :value [4 1], :process 8, :time 609822795, :index 3}
+{:type :ok, :f :write, :value [2 1], :process 5, :time 611940303, :position 6811491125530984455, :link nil, :index 4}
+{:type :ok, :f :write, :value [4 1], :process 8, :time 775091272, :position 6811491125530984456, :link nil, :index 5}
+{:type :invoke, :f :write, :value [1 1], :process 2, :time 845852648, :index 6}
+{:type :invoke, :f :write, :value [3 1], :process 6, :time 890683301, :index 7}
+{:type :ok, :f :write, :value [1 1], :process 2, :time 1014314761, :position 6811491125530984457, :link nil, :index 8}
+{:type :ok, :f :write, :value [3 1], :process 6, :time 1041676361, :position 6811491125530984458, :link nil, :index 9}
+{:type :invoke, :f :read, :value [4 nil], :process 9, :time 1146792416, :index 10}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 1149616179, :index 11}
+{:type :ok, :f :read, :value [2 1], :process 5, :time 1196887163, :position 6811491125530984458, :link 6811491125530984455, :index 12}
+{:type :invoke, :f :read, :value [0 nil], :process 0, :time 1293957861, :index 13}
+{:type :ok, :f :read, :value [4 1], :process 9, :time 1329657625, :position 6811491125530984458, :link nil, :index 14}
+{:type :ok, :f :read, :value [0 1], :process 0, :time 1436276759, :position 6811491125530984458, :link nil, :index 15}
+{:type :invoke, :f :read, :value [3 nil], :process 7, :time 1443741760, :index 16}
+{:type :invoke, :f :write, :value [2 2], :process 4, :time 1509491790, :index 17}
+{:type :invoke, :f :write, :value [0 2], :process 1, :time 1582862992, :index 18}
+{:type :ok, :f :read, :value [3 1], :process 7, :time 1610739439, :position 6811491125530984458, :link nil, :index 19}
+{:type :ok, :f :write, :value [0 2], :process 1, :time 1627203912, :position 6811491129825951745, :link 6811491125530984454, :index 20}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 1634645607, :index 21}
+{:type :ok, :f :write, :value [2 2], :process 4, :time 1683836230, :position 6811491129825951746, :link nil, :index 22}
+{:type :ok, :f :read, :value [1 1], :process 3, :time 1782888234, :position 6811491129825951746, :link nil, :index 23}
+{:type :invoke, :f :write, :value [3 2], :process 6, :time 1911716101, :index 24}
+{:type :ok, :f :write, :value [3 2], :process 6, :time 1951331096, :position 6811491129825951747, :link 6811491125530984458, :index 25}
+{:type :invoke, :f :write, :value [4 2], :process 9, :time 2018443121, :index 26}
+{:type :ok, :f :write, :value [4 2], :process 9, :time 2063475879, :position 6811491129825951748, :link 6811491125530984458, :index 27}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 2195840074, :index 28}
+{:type :ok, :f :read, :value [4 2], :process 8, :time 2229151262, :position 6811491129825951748, :link 6811491125530984456, :index 29}
+{:type :invoke, :f :write, :value [1 2], :process 2, :time 2410665788, :index 30}
+{:type :ok, :f :write, :value [1 2], :process 2, :time 2454143027, :position 6811491134120919041, :link 6811491125530984457, :index 31}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 2557933096, :index 32}
+{:type :ok, :f :read, :value [2 2], :process 5, :time 2589814784, :position 6811491134120919041, :link 6811491125530984458, :index 33}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 2739347833, :index 34}
+{:type :ok, :f :read, :value [1 2], :process 3, :time 2773164143, :position 6811491134120919041, :link 6811491129825951746, :index 35}
+{:type :invoke, :f :write, :value [2 3], :process 4, :time 2898820861, :index 36}
+{:type :ok, :f :write, :value [2 3], :process 4, :time 2940722648, :position 6811491134120919042, :link 6811491129825951746, :index 37}
+{:type :invoke, :f :read, :value [2 nil], :process 4, :time 3106565568, :index 38}
+{:type :ok, :f :read, :value [2 3], :process 4, :time 3143873318, :position 6811491134120919042, :link 6811491134120919042, :index 39}
+{:type :invoke, :f :write, :value [1 3], :process 3, :time 3176808798, :index 40}
+{:type :invoke, :f :read, :value [3 nil], :process 6, :time 3185975355, :index 41}
+{:type :ok, :f :read, :value [3 2], :process 6, :time 3218334607, :position 6811491134120919042, :link 6811491129825951747, :index 42}
+{:type :invoke, :f :read, :value [0 nil], :process 0, :time 3232374479, :index 43}
+{:type :ok, :f :write, :value [1 3], :process 3, :time 3237834918, :position 6811491134120919043, :link 6811491134120919041, :index 44}
+{:type :invoke, :f :write, :value [2 4], :process 4, :time 3247077994, :index 45}
+{:type :invoke, :f :write, :value [3 3], :process 7, :time 3259554183, :index 46}
+{:type :ok, :f :read, :value [0 2], :process 0, :time 3262297704, :position 6811491134120919043, :link 6811491125530984458, :index 47}
+{:type :ok, :f :write, :value [2 4], :process 4, :time 3287709668, :position 6811491138415886337, :link 6811491134120919042, :index 48}
+{:type :ok, :f :write, :value [3 3], :process 7, :time 3300805314, :position 6811491138415886338, :link 6811491125530984458, :index 49}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 3476490917, :index 50}
+{:type :ok, :f :read, :value [1 3], :process 3, :time 3512819584, :position 6811491138415886338, :link 6811491134120919043, :index 51}
+{:type :invoke, :f :write, :value [0 3], :process 1, :time 3567880785, :index 52}
+{:type :ok, :f :write, :value [0 3], :process 1, :time 3607095025, :position 6811491138415886339, :link 6811491129825951745, :index 53}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 3806986778, :index 54}
+{:type :ok, :f :read, :value [0 3], :process 1, :time 3840293884, :position 6811491138415886339, :link 6811491138415886339, :index 55}
+{:type :invoke, :f :write, :value [4 3], :process 9, :time 3908678007, :index 56}
+{:type :ok, :f :write, :value [4 3], :process 9, :time 3953431348, :position 6811491138415886340, :link 6811491129825951748, :index 57}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 3956968643, :index 58}
+{:type :invoke, :f :write, :value [4 4], :process 9, :time 3982020654, :index 59}
+{:type :ok, :f :read, :value [4 3], :process 8, :time 3990131067, :position 6811491138415886340, :link 6811491129825951748, :index 60}
+{:type :ok, :f :write, :value [4 4], :process 9, :time 4025348637, :position 6811491138415886341, :link 6811491138415886340, :index 61}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 4030740502, :index 62}
+{:type :ok, :f :read, :value [2 4], :process 5, :time 4061272027, :position 6811491138415886341, :link 6811491134120919041, :index 63}
+{:type :invoke, :f :write, :value [2 5], :process 4, :time 4099787034, :index 64}
+{:type :invoke, :f :write, :value [0 4], :process 0, :time 4136717352, :index 65}
+{:type :ok, :f :write, :value [2 5], :process 4, :time 4140841394, :position 6811491138415886342, :link 6811491138415886337, :index 66}
+{:type :ok, :f :write, :value [0 4], :process 0, :time 4171884105, :position 6811491138415886343, :link 6811491134120919043, :index 67}
+{:type :invoke, :f :write, :value [1 4], :process 2, :time 4289769345, :index 68}
+{:type :ok, :f :write, :value [1 4], :process 2, :time 4342116782, :position 6811491142710853633, :link 6811491134120919041, :index 69}
+{:type :invoke, :f :read, :value [1 nil], :process 2, :time 4361589147, :index 70}
+{:type :ok, :f :read, :value [1 4], :process 2, :time 4403112887, :position 6811491142710853633, :link 6811491142710853633, :index 71}
+{:type :invoke, :f :read, :value [3 nil], :process 6, :time 4454036866, :index 72}
+{:type :ok, :f :read, :value [3 3], :process 6, :time 4484320165, :position 6811491142710853633, :link 6811491134120919042, :index 73}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 4671697052, :index 74}
+{:type :invoke, :f :write, :value [1 5], :process 2, :time 4690576127, :index 75}
+{:type :ok, :f :read, :value [2 5], :process 5, :time 4701679669, :position 6811491142710853633, :link 6811491138415886341, :index 76}
+{:type :ok, :f :write, :value [1 5], :process 2, :time 4732538132, :position 6811491142710853634, :link 6811491142710853633, :index 77}
+{:type :invoke, :f :read, :value [4 nil], :process 9, :time 4732773905, :index 78}
+{:type :ok, :f :read, :value [4 4], :process 9, :time 4764975605, :position 6811491142710853634, :link 6811491138415886341, :index 79}
+{:type :invoke, :f :write, :value [2 6], :process 4, :time 4768627965, :index 80}
+{:type :ok, :f :write, :value [2 6], :process 4, :time 4805417170, :position 6811491142710853635, :link 6811491138415886342, :index 81}
+{:type :invoke, :f :write, :value [3 4], :process 7, :time 4947631465, :index 82}
+{:type :ok, :f :write, :value [3 4], :process 7, :time 4994275257, :position 6811491142710853636, :link 6811491138415886338, :index 83}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 5115778824, :index 84}
+{:type :ok, :f :read, :value [1 5], :process 3, :time 5148639469, :position 6811491142710853636, :link 6811491138415886338, :index 85}
+{:type :invoke, :f :write, :value [4 5], :process 9, :time 5169589863, :index 86}
+{:type :ok, :f :write, :value [4 5], :process 9, :time 5211017433, :position 6811491142710853637, :link 6811491142710853634, :index 87}
+{:type :invoke, :f :write, :value [1 6], :process 2, :time 5239401506, :index 88}
+{:type :ok, :f :write, :value [1 6], :process 2, :time 5315460824, :position 6811491147005820929, :link 6811491142710853634, :index 89}
+{:type :invoke, :f :read, :value [3 nil], :process 7, :time 5417943767, :index 90}
+{:type :ok, :f :read, :value [3 4], :process 7, :time 5452561323, :position 6811491147005820929, :link 6811491142710853636, :index 91}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 5507591955, :index 92}
+{:type :invoke, :f :read, :value [1 nil], :process 2, :time 5512893944, :index 93}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 5538815207, :index 94}
+{:type :ok, :f :read, :value [4 5], :process 8, :time 5538994643, :position 6811491147005820929, :link 6811491138415886340, :index 95}
+{:type :ok, :f :read, :value [1 6], :process 2, :time 5546187389, :position 6811491147005820929, :link 6811491147005820929, :index 96}
+{:type :ok, :f :read, :value [0 4], :process 1, :time 5567639120, :position 6811491147005820929, :link 6811491138415886339, :index 97}
+{:type :invoke, :f :write, :value [3 5], :process 6, :time 5595874808, :index 98}
+{:type :ok, :f :write, :value [3 5], :process 6, :time 5632382074, :position 6811491147005820930, :link 6811491142710853633, :index 99}
+{:type :invoke, :f :read, :value [3 nil], :process 7, :time 5710691885, :index 100}
+{:type :invoke, :f :write, :value [0 5], :process 0, :time 5716344687, :index 101}
+{:type :ok, :f :read, :value [3 5], :process 7, :time 5745799960, :position 6811491147005820930, :link 6811491147005820929, :index 102}
+{:type :ok, :f :write, :value [0 5], :process 0, :time 5757204326, :position 6811491147005820931, :link 6811491138415886343, :index 103}
+{:type :invoke, :f :write, :value [4 6], :process 9, :time 5831164907, :index 104}
+{:type :invoke, :f :read, :value [2 nil], :process 4, :time 5854000207, :index 105}
+{:type :ok, :f :write, :value [4 6], :process 9, :time 5874008360, :position 6811491147005820932, :link 6811491142710853637, :index 106}
+{:type :ok, :f :read, :value [2 6], :process 4, :time 5892317013, :position 6811491147005820932, :link 6811491142710853635, :index 107}
+{:type :invoke, :f :write, :value [1 7], :process 3, :time 6110991464, :index 108}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 6284387682, :index 109}
+{:type :ok, :f :read, :value [4 6], :process 8, :time 6318884030, :position 6811491147005820933, :link 6811491147005820929, :index 110}
+{:type :invoke, :f :write, :value [3 6], :process 7, :time 6648442692, :index 111}
+{:type :ok, :f :write, :value [1 7], :process 3, :time 6658531864, :position 6811491147005820933, :link 6811491142710853636, :index 112}
+{:type :ok, :f :write, :value [3 6], :process 7, :time 6696891578, :position 6811491151300788225, :link 6811491147005820930, :index 113}
+{:type :invoke, :f :write, :value [2 7], :process 5, :time 6699263251, :index 114}
+{:type :ok, :f :write, :value [2 7], :process 5, :time 6735469998, :position 6811491151300788226, :link 6811491142710853633, :index 115}
+{:type :invoke, :f :read, :value [1 nil], :process 2, :time 6759650532, :index 116}
+{:type :ok, :f :read, :value [1 7], :process 2, :time 6792669968, :position 6811491151300788226, :link 6811491147005820929, :index 117}
+{:type :invoke, :f :read, :value [2 nil], :process 4, :time 6862909823, :index 118}
+{:type :ok, :f :read, :value [2 7], :process 4, :time 6896325713, :position 6811491151300788226, :link 6811491147005820932, :index 119}
+{:type :invoke, :f :read, :value [3 nil], :process 6, :time 7316461245, :index 120}
+{:type :ok, :f :read, :value [3 6], :process 6, :time 7352299545, :position 6811491151300788226, :link 6811491147005820930, :index 121}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 7475313542, :index 122}
+{:type :ok, :f :read, :value [0 5], :process 1, :time 7505049396, :position 6811491151300788226, :link 6811491147005820929, :index 123}
+{:type :invoke, :f :write, :value [2 8], :process 5, :time 7527810786, :index 124}
+{:type :invoke, :f :write, :value [4 7], :process 8, :time 7565675256, :index 125}
+{:type :ok, :f :write, :value [2 8], :process 5, :time 7566400705, :position 6811491155595755521, :link 6811491151300788226, :index 126}
+{:type :invoke, :f :write, :value [0 6], :process 0, :time 7594674681, :index 127}
+{:type :ok, :f :write, :value [4 7], :process 8, :time 7611876591, :position 6811491155595755522, :link 6811491147005820933, :index 128}
+{:type :ok, :f :write, :value [0 6], :process 0, :time 7628935824, :position 6811491155595755523, :link 6811491147005820931, :index 129}
+{:type :invoke, :f :read, :value [4 nil], :process 9, :time 7811578076, :index 130}
+{:type :ok, :f :read, :value [4 7], :process 9, :time 7846060210, :position 6811491155595755523, :link 6811491147005820932, :index 131}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 7870872781, :index 132}
+{:type :ok, :f :read, :value [0 6], :process 1, :time 7900780567, :position 6811491155595755523, :link 6811491151300788226, :index 133}
+{:type :invoke, :f :write, :value [0 7], :process 0, :time 8028423545, :index 134}
+{:type :ok, :f :write, :value [0 7], :process 0, :time 8065220710, :position 6811491155595755524, :link 6811491155595755523, :index 135}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 8108893144, :index 136}
+{:type :ok, :f :read, :value [2 8], :process 5, :time 8140764044, :position 6811491155595755524, :link 6811491155595755521, :index 137}
+{:type :invoke, :f :write, :value [3 7], :process 7, :time 8251856420, :index 138}
+{:type :ok, :f :write, :value [3 7], :process 7, :time 8294690619, :position 6811491159890722817, :link 6811491151300788225, :index 139}
+{:type :invoke, :f :write, :value [1 8], :process 2, :time 8335609109, :index 140}
+{:type :ok, :f :write, :value [1 8], :process 2, :time 8404925623, :position 6811491159890722818, :link 6811491151300788226, :index 141}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 8533643444, :index 142}
+{:type :invoke, :f :write, :value [4 8], :process 9, :time 8556870480, :index 143}
+{:type :ok, :f :read, :value [1 8], :process 3, :time 8573271837, :position 6811491159890722818, :link 6811491147005820933, :index 144}
+{:type :ok, :f :write, :value [4 8], :process 9, :time 8606368702, :position 6811491159890722819, :link 6811491155595755523, :index 145}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 8772968035, :index 146}
+{:type :ok, :f :read, :value [0 7], :process 1, :time 8806831043, :position 6811491159890722819, :link 6811491155595755523, :index 147}
+{:type :invoke, :f :write, :value [2 9], :process 4, :time 8854067267, :index 148}
+{:type :ok, :f :write, :value [2 9], :process 4, :time 8905291763, :position 6811491159890722820, :link 6811491151300788226, :index 149}
+{:type :invoke, :f :read, :value [3 nil], :process 7, :time 8913598150, :index 150}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 8918641678, :index 151}
+{:type :invoke, :f :write, :value [1 9], :process 2, :time 8936778589, :index 152}
+{:type :ok, :f :read, :value [3 7], :process 7, :time 8947012117, :position 6811491159890722820, :link 6811491159890722817, :index 153}
+{:type :ok, :f :read, :value [4 8], :process 8, :time 8951377767, :position 6811491159890722820, :link 6811491155595755522, :index 154}
+{:type :ok, :f :write, :value [1 9], :process 2, :time 8976839244, :position 6811491159890722821, :link 6811491159890722818, :index 155}
+{:type :invoke, :f :read, :value [2 nil], :process 5, :time 9001398360, :index 156}
+{:type :ok, :f :read, :value [2 9], :process 5, :time 9033647760, :position 6811491159890722821, :link 6811491155595755524, :index 157}
+{:type :invoke, :f :read, :value [1 nil], :process 3, :time 9035400406, :index 158}
+{:type :ok, :f :read, :value [1 9], :process 3, :time 9070425167, :position 6811491159890722821, :link 6811491159890722818, :index 159}
+{:type :invoke, :f :write, :value [4 9], :process 9, :time 9110967788, :index 160}
+{:type :ok, :f :write, :value [4 9], :process 9, :time 9155489726, :position 6811491159890722822, :link 6811491159890722819, :index 161}
+{:type :invoke, :f :write, :value [3 8], :process 6, :time 9266219857, :index 162}
+{:type :ok, :f :write, :value [3 8], :process 6, :time 9308124211, :position 6811491164185690113, :link 6811491151300788226, :index 163}
+{:type :invoke, :f :read, :value [4 nil], :process 8, :time 9508346132, :index 164}
+{:type :ok, :f :read, :value [4 9], :process 8, :time 9546041527, :position 6811491164185690113, :link 6811491159890722820, :index 165}
+{:type :invoke, :f :write, :value [0 8], :process 0, :time 9821245109, :index 166}
+{:type :ok, :f :write, :value [0 8], :process 0, :time 9866266741, :position 6811491164185690114, :link 6811491155595755524, :index 167}
+{:type :invoke, :f :write, :value [5 1], :process 2, :time 9878112823, :index 168}
+{:type :ok, :f :write, :value [5 1], :process 2, :time 9918273589, :position 6811491164185690115, :link 6811491159890722821, :index 169}
+{:type :invoke, :f :write, :value [6 1], :process 5, :time 10026874657, :index 170}
+{:type :invoke, :f :read, :value [6 nil], :process 4, :time 10056236170, :index 171}
+{:type :ok, :f :write, :value [6 1], :process 5, :time 10063080342, :position 6811491164185690116, :link 6811491159890722821, :index 172}
+{:type :ok, :f :read, :value [6 1], :process 4, :time 10091678333, :position 6811491164185690116, :link 6811491159890722820, :index 173}
+{:type :invoke, :f :read, :value [0 nil], :process 0, :time 10189954334, :index 174}
+{:type :ok, :f :read, :value [0 8], :process 0, :time 10219075579, :position 6811491164185690116, :link 6811491164185690114, :index 175}
+{:type :invoke, :f :read, :value [3 nil], :process 6, :time 10280072235, :index 176}
+{:type :info, :f :move, :process :nemesis, :time 10286363611, :index 177}
+{:type :info, :f :move, :process :nemesis, :time 10294073103, :error "indeterminate: ", :index 178}
+{:type :ok, :f :read, :value [3 8], :process 6, :time 10307902484, :position 6811491164185690116, :link 6811491164185690113, :index 179}
+{:type :invoke, :f :write, :value [0 9], :process 1, :time 10455965454, :index 180}
+{:type :ok, :f :write, :value [0 9], :process 1, :time 10492421625, :position 6811491168480657409, :link 6811491159890722819, :index 181}
+{:type :invoke, :f :write, :value [3 9], :process 7, :time 10697900068, :index 182}
+{:type :ok, :f :write, :value [3 9], :process 7, :time 10745030516, :position 6811491168480657410, :link 6811491159890722820, :index 183}
+{:type :invoke, :f :write, :value [7 1], :process 8, :time 10777762194, :index 184}
+{:type :info, :f :move, :process :nemesis, :time 10794540953, :index 185}
+{:type :info, :f :move, :process :nemesis, :time 10797598256, :error "indeterminate: ", :index 186}
+{:type :ok, :f :write, :value [7 1], :process 8, :time 10818542218, :position 6811491168480657411, :link 6811491164185690113, :index 187}
+{:type :invoke, :f :read, :value [5 nil], :process 3, :time 10878303787, :index 188}
+{:type :ok, :f :read, :value [5 1], :process 3, :time 10910898030, :position 6811491168480657411, :link 6811491159890722821, :index 189}
+{:type :invoke, :f :read, :value [7 nil], :process 9, :time 10922407025, :index 190}
+{:type :ok, :f :read, :value [7 1], :process 9, :time 10963279687, :position 6811491168480657411, :link 6811491159890722822, :index 191}
+{:type :invoke, :f :read, :value [0 nil], :process 1, :time 11013216666, :index 192}
+{:type :invoke, :f :write, :value [8 1], :process 0, :time 11021646455, :index 193}
+{:type :ok, :f :read, :value [0 9], :process 1, :time 11041851603, :position 6811491168480657411, :link 6811491168480657409, :index 194}
+{:type :ok, :f :write, :value [8 1], :process 0, :time 11058036959, :position 6811491168480657412, :link 6811491164185690116, :index 195}
+{:type :invoke, :f :read, :value [8 nil], :process 0, :time 11062418107, :index 196}
+{:type :ok, :f :read, :value [8 1], :process 0, :time 11091640125, :position 6811491168480657412, :link 6811491168480657412, :index 197}
+{:type :invoke, :f :write, :value [7 2], :process 9, :time 11103127137, :index 198}
+{:type :invoke, :f :write, :value [6 2], :process 4, :time 11121658156, :index 199}
+{:type :ok, :f :write, :value [7 2], :process 9, :time 11142275110, :position 6811491168480657413, :link 6811491168480657411, :index 200}
+{:type :ok, :f :write, :value [6 2], :process 4, :time 11163539138, :position 6811491168480657414, :link 6811491164185690116, :index 201}
+{:type :invoke, :f :write, :value [5 2], :process 2, :time 11249130540, :index 202}
+{:type :ok, :f :write, :value [5 2], :process 2, :time 11290447740, :position 6811491172775624705, :link 6811491164185690115, :index 203}
+{:type :info, :f :move, :process :nemesis, :time 11298185417, :index 204}
+{:type :info, :f :move, :process :nemesis, :time 11301369737, :error "indeterminate: ", :index 205}
+{:type :invoke, :f :read, :value [6 nil], :process 5, :time 11400063029, :index 206}
+{:type :ok, :f :read, :value [6 2], :process 5, :time 11432530971, :position 6811491172775624705, :link 6811491164185690116, :index 207}
+{:type :invoke, :f :write, :value [8 2], :process 0, :time 11508084526, :index 208}
+{:type :invoke, :f :read, :value [7 nil], :process 8, :time 11514177308, :index 209}
+{:type :ok, :f :write, :value [8 2], :process 0, :time 11544781366, :position 6811491172775624706, :link 6811491168480657412, :index 210}
+{:type :ok, :f :read, :value [7 2], :process 8, :time 11553805729, :position 6811491172775624706, :link 6811491168480657411, :index 211}
+{:type :invoke, :f :write, :value [6 3], :process 5, :time 11668385507, :index 212}
+{:type :ok, :f :write, :value [6 3], :process 5, :time 11703519906, :position 6811491172775624707, :link 6811491172775624705, :index 213}
+{:type :invoke, :f :read, :value [6 nil], :process 4, :time 11739391234, :index 214}
+{:type :ok, :f :read, :value [6 3], :process 4, :time 11773688428, :position 6811491172775624707, :link 6811491168480657414, :index 215}
+{:type :info, :f :start, :process :nemesis, :time 11801955364, :index 216}
+{:type :invoke, :f :read, :value [8 nil], :process 0, :time 11816179008, :index 217}
+{:type :ok, :f :read, :value [8 2], :process 0, :time 11844556364, :position 6811491172775624707, :link 6811491172775624706, :index 218}
+{:type :invoke, :f :read, :value [5 nil], :process 3, :time 11928702273, :index 219}
+{:type :ok, :f :read, :value [5 2], :process 3, :time 11963773939, :position 6811491172775624707, :link 6811491168480657411, :index 220}
+{:type :invoke, :f :write, :value [7 3], :process 9, :time 11983257533, :index 221}
+{:type :ok, :f :write, :value [7 3], :process 9, :time 12032458423, :position 6811491172775624708, :link 6811491168480657413, :index 222}
+{:type :invoke, :f :read, :value [3 nil], :process 6, :time 12220612199, :index 223}
+{:type :invoke, :f :write, :value [5 3], :process 2, :time 12247366490, :index 224}
+{:type :invoke, :f :read, :value [7 nil], :process 8, :time 12331209487, :index 225}
+{:type :info, :f :start, :process :nemesis, :time 12353935698, :value [:isolated {"175.24.75.168" #{"175.24.106.227" "175.24.76.99" "212.64.86.223"}, "212.64.58.158" #{"175.24.106.227" "175.24.76.99" "212.64.86.223"}, "175.24.106.227" #{"175.24.75.168" "212.64.58.158"}, "175.24.76.99" #{"175.24.75.168" "212.64.58.158"}, "212.64.86.223" #{"175.24.75.168" "212.64.58.158"}}], :index 226}
+{:type :invoke, :f :write, :value [9 1], :process 7, :time 12438970404, :index 227}
+{:type :invoke, :f :read, :value [5 nil], :process 3, :time 12581890105, :index 228}
+{:type :invoke, :f :write, :value [8 3], :process 1, :time 12679281152, :index 229}
+{:type :invoke, :f :write, :value [6 4], :process 4, :time 12782515010, :index 230}
+{:type :invoke, :f :read, :value [8 nil], :process 0, :time 12873351629, :index 231}
+{:type :ok, :f :read, :value [8 2], :process 0, :time 12906575590, :position 6811491172775624708, :link 6811491172775624707, :index 232}
+{:type :invoke, :f :write, :value [7 4], :process 9, :time 12954101992, :index 233}
+{:type :invoke, :f :read, :value [6 nil], :process 5, :time 13252201632, :index 234}
+{:type :ok, :f :read, :value [6 3], :process 5, :time 13281461038, :position 6811491172775624708, :link 6811491172775624707, :index 235}
+{:type :invoke, :f :write, :value [6 5], :process 5, :time 13926339406, :index 236}
+{:type :invoke, :f :write, :value [8 4], :process 0, :time 14709632189, :index 237}
+{:type :info, :f :write, :value [6 5], :process 5, :time 19833568745, :exception {:via [{:type com.mongodb.MongoWriteConcernException, :message "operation was interrupted at jepsen0", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "operation was interrupted at jepsen0"}, :error "indeterminate: operation was interrupted at jepsen0", :index 238}
+{:type :info, :f :write, :value [6 4], :process 4, :time 19833243632, :exception {:via [{:type com.mongodb.MongoWriteConcernException, :message "operation was interrupted at jepsen0", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "operation was interrupted at jepsen0"}, :error "indeterminate: operation was interrupted at jepsen0", :index 239}
+{:type :info, :f :write, :value [8 4], :process 0, :time 19833380318, :exception {:via [{:type com.mongodb.MongoWriteConcernException, :message "operation was interrupted at jepsen0", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "operation was interrupted at jepsen0"}, :error "indeterminate: operation was interrupted at jepsen0", :index 240}
+{:type :info, :f :write, :value [7 4], :process 9, :time 19838599490, :exception {:via [{:type com.mongodb.MongoWriteConcernException, :message "operation was interrupted at jepsen0", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "operation was interrupted at jepsen0"}, :error "indeterminate: operation was interrupted at jepsen0", :index 241}
+{:type :invoke, :f :read, :value [7 nil], :process 19, :time 20569454308, :index 242}
+{:type :invoke, :f :read, :value [8 nil], :process 10, :time 20819527110, :index 243}
+{:type :invoke, :f :read, :value [6 nil], :process 15, :time 21468898155, :index 244}
+{:type :invoke, :f :write, :value [6 6], :process 14, :time 21785778459, :index 245}
+{:type :info, :f :stop, :process :nemesis, :time 32354732832, :index 246}
+{:type :info, :f :write, :value [9 1], :process 7, :time 32482384215, :exception {:via [{:type com.mongodb.MongoWriteException, :message "Write results unavailable from 175.24.75.168:27020 :: caused by :: Couldn't get a connection within the time limit", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1033]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1033] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "Write results unavailable from 175.24.75.168:27020 :: caused by :: Couldn't get a connection within the time limit"}, :error "indeterminate: Write results unavailable from 175.24.75.168:27020 :: caused by :: Couldn't get a connection within the time limit", :index 247}
+{:type :info, :f :stop, :process :nemesis, :time 32665905935, :value :network-healed, :index 248}
+{:type :info, :f :write, :value [8 3], :process 1, :time 32711355990, :exception {:via [{:type com.mongodb.MongoWriteException, :message "Write results unavailable from 175.24.75.168:27020 :: caused by :: Couldn't get a connection within the time limit", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1033]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1033] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "Write results unavailable from 175.24.75.168:27020 :: caused by :: Couldn't get a connection within the time limit"}, :error "indeterminate: Write results unavailable from 175.24.75.168:27020 :: caused by :: Couldn't get a connection within the time limit", :index 249}
+{:type :ok, :f :read, :value [7 3], :process 19, :time 33201511347, :position 6811491250085036033, :link nil, :index 250}
+{:type :ok, :f :read, :value [6 3], :process 15, :time 33292733649, :position 6811491267264905219, :link nil, :index 251}
+{:type :ok, :f :read, :value [8 2], :process 10, :time 33292733641, :position 6811491267264905219, :link nil, :index 252}
+{:type :invoke, :f :read, :value [6 nil], :process 15, :time 33299552184, :index 253}
+{:type :invoke, :f :read, :value [9 nil], :process 17, :time 33438733185, :index 254}
+{:type :info, :f :write, :value [5 3], :process 2, :time 33542890417, :exception {:via [{:type com.mongodb.MongoWriteConcernException, :message "operation was interrupted at jepsen0", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "operation was interrupted at jepsen0"}, :error "indeterminate: operation was interrupted at jepsen0", :index 255}
+{:type :invoke, :f :write, :value [8 5], :process 10, :time 33673507551, :index 256}
+{:type :ok, :f :read, :value [9 0], :process 17, :time 33765994528, :position 6811491267264905219, :link nil, :index 257}
+{:type :invoke, :f :read, :value [8 nil], :process 11, :time 34062211036, :index 258}
+{:type :invoke, :f :write, :value [7 5], :process 19, :time 34086161063, :index 259}
+{:type :ok, :f :read, :value [8 2], :process 11, :time 34337093605, :position 6811491271559872513, :link nil, :index 260}
+{:type :invoke, :f :write, :value [5 4], :process 12, :time 34727457626, :index 261}
+{:type :ok, :f :write, :value [6 6], :process 14, :time 34737989776, :position 6811491271559872513, :link nil, :index 262}
+{:type :ok, :f :read, :value [6 6], :process 15, :time 34738028097, :position 6811491271559872513, :link 6811491267264905219, :index 263}
+{:type :ok, :f :write, :value [7 5], :process 19, :time 34738894699, :position 6811491271559872513, :link 6811491250085036033, :index 264}
+{:type :invoke, :f :write, :value [6 7], :process 15, :time 34987110321, :index 265}
+{:type :ok, :f :write, :value [8 5], :process 10, :time 35084763010, :position 6811491275854839810, :link 6811491267264905219, :index 266}
+{:type :ok, :f :write, :value [5 4], :process 12, :time 35087581943, :position 6811491275854839810, :link nil, :index 267}
+{:type :invoke, :f :read, :value [5 nil], :process 12, :time 35111002052, :index 268}
+{:type :ok, :f :read, :value [5 4], :process 12, :time 35143239783, :position 6811491275854839810, :link 6811491275854839810, :index 269}
+{:type :invoke, :f :write, :value [8 6], :process 10, :time 35187261216, :index 270}
+{:type :invoke, :f :write, :value [9 2], :process 17, :time 35188601489, :index 271}
+{:type :invoke, :f :read, :value [7 nil], :process 19, :time 36002456553, :index 272}
+{:type :ok, :f :read, :value [7 5], :process 19, :time 36037801437, :position 6811491275854839810, :link 6811491271559872513, :index 273}
+{:type :invoke, :f :read, :value [8 nil], :process 11, :time 36101695978, :index 274}
+{:type :ok, :f :read, :value [8 5], :process 11, :time 36144545879, :position 6811491280149807106, :link 6811491271559872513, :index 275}
+{:type :invoke, :f :write, :value [5 5], :process 12, :time 36314902904, :index 276}
+{:type :invoke, :f :write, :value [8 7], :process 11, :time 36395295520, :index 277}
+{:type :invoke, :f :read, :value [6 nil], :process 14, :time 36688942463, :index 278}
+{:type :ok, :f :read, :value [6 6], :process 14, :time 36721845101, :position 6811491275854839810, :link 6811491271559872513, :index 279}
+{:type :ok, :f :write, :value [6 7], :process 15, :time 37195400773, :position 6811491275854839811, :link 6811491271559872513, :index 280}
+{:type :ok, :f :write, :value [8 7], :process 11, :time 37195400800, :position 6811491284444774402, :link 6811491280149807106, :index 281}
+{:type :ok, :f :write, :value [8 6], :process 10, :time 37195473724, :position 6811491284444774402, :link 6811491275854839810, :index 282}
+{:type :ok, :f :write, :value [5 5], :process 12, :time 37195548006, :position 6811491284444774402, :link 6811491275854839810, :index 283}
+{:type :ok, :f :write, :value [9 2], :process 17, :time 37196631223, :position 6811491280149807105, :link 6811491267264905219, :index 284}
+{:type :invoke, :f :write, :value [7 6], :process 19, :time 37461551856, :index 285}
+{:type :ok, :f :write, :value [7 6], :process 19, :time 37589596505, :position 6811491288739741697, :link 6811491275854839810, :index 286}
+{:type :invoke, :f :read, :value [9 nil], :process 17, :time 37734098523, :index 287}
+{:type :ok, :f :read, :value [9 2], :process 17, :time 37770500176, :position 6811491288739741697, :link 6811491280149807105, :index 288}
+{:type :invoke, :f :read, :value [7 nil], :process 19, :time 37793459866, :index 289}
+{:type :ok, :f :read, :value [7 6], :process 19, :time 37829827520, :position 6811491288739741697, :link 6811491288739741697, :index 290}
+{:type :invoke, :f :write, :value [7 7], :process 19, :time 37863673596, :index 291}
+{:type :invoke, :f :write, :value [6 8], :process 14, :time 38028635027, :index 292}
+{:type :invoke, :f :read, :value [8 nil], :process 10, :time 38323772629, :index 293}
+{:type :info, :f :write, :value [6 8], :process 14, :time 38327951843, :exception {:via [{:type com.mongodb.MongoWriteConcernException, :message "operation was interrupted at jepsen0", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "operation was interrupted at jepsen0"}, :error "indeterminate: operation was interrupted at jepsen0", :index 294}
+{:type :info, :f :write, :value [7 7], :process 19, :time 38328064153, :exception {:via [{:type com.mongodb.MongoWriteConcernException, :message "operation was interrupted at jepsen0", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1031] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "operation was interrupted at jepsen0"}, :error "indeterminate: operation was interrupted at jepsen0", :index 295}
+{:type :invoke, :f :read, :value [5 nil], :process 12, :time 38354184611, :index 296}
+{:type :invoke, :f :write, :value [8 8], :process 11, :time 38790675203, :index 297}
+{:type :info, :f :write, :value [8 8], :process 11, :time 38828563906, :exception {:via [{:type com.mongodb.MongoWriteException, :message "not master", :at [com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1033]}], :trace [[com.mongodb.MongoCollectionImpl executeSingleWriteRequest "MongoCollectionImpl.java" 1033] [com.mongodb.MongoCollectionImpl executeReplaceOne "MongoCollectionImpl.java" 622] [com.mongodb.MongoCollectionImpl replaceOne "MongoCollectionImpl.java" 617] [jepsen.mongodb.mongo$upsert_BANG_$fn__605 invoke "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invokeStatic "mongo.clj" 284] [jepsen.mongodb.mongo$upsert_BANG_ invoke "mongo.clj" 276] [jepsen.mongodb.sharded.CausalClient invoke_BANG_ "sharded.clj" 610] [jepsen.core$invoke_op_BANG_$fn__5784 invoke "core.clj" 221] [jepsen.core$invoke_op_BANG_ invokeStatic "core.clj" 221] [jepsen.core$invoke_op_BANG_ invoke "core.clj" 216] [jepsen.core.ClientWorker run_worker_BANG_ "core.clj" 353] [jepsen.core$run_workers_BANG_$run__5775 invoke "core.clj" 204] [dom_top.core$real_pmap_helper$build_thread__214$fn__215 invoke "core.clj" 146] [clojure.lang.AFn applyToHelper "AFn.java" 152] [clojure.lang.AFn applyTo "AFn.java" 144] [clojure.core$apply invokeStatic "core.clj" 665] [clojure.core$with_bindings_STAR_ invokeStatic "core.clj" 1973] [clojure.core$with_bindings_STAR_ doInvoke "core.clj" 1973] [clojure.lang.RestFn invoke "RestFn.java" 425] [clojure.lang.AFn applyToHelper "AFn.java" 156] [clojure.lang.RestFn applyTo "RestFn.java" 132] [clojure.core$apply invokeStatic "core.clj" 669] [clojure.core$bound_fn_STAR_$fn__5734 doInvoke "core.clj" 2003] [clojure.lang.RestFn invoke "RestFn.java" 397] [clojure.lang.AFn run "AFn.java" 22] [java.lang.Thread run "Thread.java" 748]], :cause "not master"}, :error "indeterminate: not master", :index 298}
+{:type :ok, :f :read, :value [3 9], :process 6, :time 38909955853, :position 6811491172775624708, :link 6811491164185690116, :index 299}
+{:type :invoke, :f :read, :value [6 nil], :process 15, :time 39143300719, :index 300}
+{:type :ok, :f :read, :value [6 7], :process 15, :time 39172791896, :position 6811491288739741697, :link 6811491275854839811, :index 301}
+{:type :ok, :f :read, :value [8 7], :process 10, :time 39172791894, :position 6811491288739741697, :link 6811491284444774402, :index 302}
+{:type :ok, :f :read, :value [5 5], :process 3, :time 39344885711, :position 6811491288739741701, :link 6811491172775624707, :index 303}
+{:type :ok, :f :read, :value [5 5], :process 12, :time 39390723947, :position 6811491288739741701, :link 6811491284444774402, :index 304}
+{:type :invoke, :f :write, :value [6 9], :process 24, :time 39473640487, :index 305}
+{:type :invoke, :f :read, :value [7 nil], :process 29, :time 39504177024, :index 306}
+{:type :ok, :f :read, :value [7 6], :process 8, :time 39534628678, :position 6811491288739741701, :link 6811491172775624706, :index 307}
+{:type :invoke, :f :write, :value [9 3], :process 17, :time 39749289556, :index 308}
+{:type :invoke, :f :read, :value [6 nil], :process 15, :time 39773304733, :index 309}
+{:type :ok, :f :read, :value [6 7], :process 15, :time 39803096252, :position 6811491288739741697, :link 6811491288739741697, :index 310}
+{:type :invoke, :f :read, :value [9 nil], :process 6, :time 39808796814, :index 311}
+{:type :ok, :f :read, :value [7 6], :process 29, :time 39820672344, :position 6811491288739741697, :link nil, :index 312}
+{:type :ok, :f :read, :value [9 2], :process 6, :time 39840127507, :position 6811491288739741697, :link 6811491172775624708, :index 313}
+{:type :invoke, :f :write, :value [7 8], :process 8, :time 39845285928, :index 314}
+{:type :invoke, :f :read, :value [8 nil], :process 10, :time 39887212418, :index 315}
+{:type :ok, :f :read, :value [8 7], :process 10, :time 39914573432, :position 6811491288739741697, :link 6811491288739741697, :index 316}
+{:type :invoke, :f :write, :value [8 9], :process 21, :time 40167977653, :index 317}
+{:type :invoke, :f :read, :value [8 nil], :process 10, :time 40270177130, :index 318}
+{:type :ok, :f :read, :value [8 7], :process 10, :time 40298982282, :position 6811491288739741697, :link 6811491288739741697, :index 319}
+{:type :invoke, :f :write, :value [10 1], :process 15, :time 40482478768, :index 320}
+{:type :invoke, :f :write, :value [5 6], :process 12, :time 40539566324, :index 321}
+{:type :invoke, :f :write, :value [11 1], :process 10, :time 40569130861, :index 322}
+{:type :invoke, :f :write, :value [9 4], :process 6, :time 40583663235, :index 323}
+{:type :ok, :f :write, :value [8 9], :process 21, :time 40721972953, :position 6811491297329676289, :link nil, :index 324}
+{:type :ok, :f :write, :value [11 1], :process 10, :time 40721964631, :position 6811491297329676292, :link 6811491288739741697, :index 325}
+{:type :ok, :f :write, :value [10 1], :process 15, :time 40721970009, :position 6811491297329676290, :link 6811491288739741697, :index 326}
+{:type :ok, :f :write, :value [9 4], :process 6, :time 40724967568, :position 6811491297329676293, :link 6811491288739741697, :index 327}
+{:type :ok, :f :write, :value [9 3], :process 17, :time 40724964701, :position 6811491297329676293, :link 6811491288739741697, :index 328}
+{:type :ok, :f :write, :value [7 8], :process 8, :time 40725696205, :position 6811491297329676293, :link 6811491288739741701, :index 329}
+{:type :ok, :f :write, :value [6 9], :process 24, :time 40726355128, :position 6811491293034708994, :link nil, :index 330}
+{:type :ok, :f :write, :value [5 6], :process 12, :time 40726782065, :position 6811491297329676291, :link 6811491288739741701, :index 331}
+{:type :invoke, :f :read, :value [10 nil], :process 15, :time 40786938992, :index 332}
+{:type :invoke, :f :write, :value [10 2], :process 24, :time 40811494012, :index 333}
+{:type :ok, :f :read, :value [10 1], :process 15, :time 40818284289, :position 6811491297329676293, :link 6811491297329676290, :index 334}
+{:type :invoke, :f :read, :value [11 nil], :process 21, :time 40938283020, :index 335}
+{:type :ok, :f :read, :value [11 1], :process 21, :time 40975603136, :position 6811491297329676293, :link 6811491297329676289, :index 336}
+{:type :invoke, :f :read, :value [5 nil], :process 3, :time 41035520730, :index 337}
+{:type :ok, :f :read, :value [5 6], :process 3, :time 41068295519, :position 6811491297329676293, :link 6811491288739741701, :index 338}
+{:type :invoke, :f :read, :value [7 nil], :process 29, :time 41105755130, :index 339}
+{:type :ok, :f :read, :value [7 8], :process 29, :time 41142740374, :position 6811491297329676293, :link 6811491288739741697, :index 340}
+{:type :ok, :f :write, :value [10 2], :process 24, :time 41164103385, :position 6811491297329676294, :link 6811491293034708994, :index 341}
+{:type :invoke, :f :read, :value [10 nil], :process 24, :time 41248036138, :index 342}
+{:type :ok, :f :read, :value [10 2], :process 24, :time 41289452845, :position 6811491297329676294, :link 6811491297329676294, :index 343}
+{:type :invoke, :f :read, :value [9 nil], :process 6, :time 41598894732, :index 344}
+{:type :invoke, :f :write, :value [7 9], :process 29, :time 41624872948, :index 345}
+{:type :ok, :f :read, :value [9 4], :process 6, :time 41632776865, :position 6811491297329676294, :link 6811491297329676293, :index 346}
+{:type :invoke, :f :read, :value [7 nil], :process 8, :time 41634225246, :index 347}
+{:type :invoke, :f :write, :value [10 3], :process 24, :time 41645935962, :index 348}
+{:type :ok, :f :read, :value [7 8], :process 8, :time 41665972442, :position 6811491297329676294, :link 6811491297329676293, :index 349}
+{:type :ok, :f :write, :value [7 9], :process 29, :time 41668272179, :position 6811491301624643585, :link 6811491297329676293, :index 350}
+{:type :ok, :f :write, :value [10 3], :process 24, :time 41689135299, :position 6811491301624643586, :link 6811491297329676294, :index 351}
+{:type :invoke, :f :read, :value [10 nil], :process 24, :time 41800022726, :index 352}
+{:type :ok, :f :read, :value [10 3], :process 24, :time 41835158383, :position 6811491301624643586, :link 6811491301624643586, :index 353}
+{:type :invoke, :f :write, :value [10 4], :process 15, :time 41876110117, :index 354}
+{:type :invoke, :f :write, :value [5 7], :process 12, :time 41887393425, :index 355}
+{:type :ok, :f :write, :value [10 4], :process 15, :time 41916542561, :position 6811491301624643587, :link 6811491297329676293, :index 356}
+{:type :ok, :f :write, :value [5 7], :process 12, :time 41927160058, :position 6811491301624643588, :link 6811491297329676291, :index 357}
+{:type :invoke, :f :write, :value [12 1], :process 8, :time 42027868736, :index 358}
+{:type :ok, :f :write, :value [12 1], :process 8, :time 42069873282, :position 6811491301624643589, :link 6811491297329676294, :index 359}
+{:type :invoke, :f :write, :value [11 2], :process 10, :time 42124777591, :index 360}
+{:type :ok, :f :write, :value [11 2], :process 10, :time 42206460709, :position 6811491301624643590, :link 6811491297329676292, :index 361}
+{:type :invoke, :f :read, :value [12 nil], :process 8, :time 42235607213, :index 362}
+{:type :ok, :f :read, :value [12 1], :process 8, :time 42270567885, :position 6811491301624643590, :link 6811491301624643589, :index 363}
+{:type :invoke, :f :write, :value [9 5], :process 17, :time 42283305127, :index 364}
+{:type :ok, :f :write, :value [9 5], :process 17, :time 42324265792, :position 6811491305919610881, :link 6811491297329676293, :index 365}
+{:type :invoke, :f :read, :value [5 nil], :process 3, :time 42555739768, :index 366}
+{:type :ok, :f :read, :value [5 7], :process 3, :time 42587112054, :position 6811491305919610881, :link 6811491297329676293, :index 367}
+{:type :info, :f :move, :process :nemesis, :time 42666307717, :index 368}
+{:type :info, :f :move, :process :nemesis, :time 42669254037, :error "indeterminate: ", :index 369}
+{:type :invoke, :f :write, :value [12 2], :process 29, :time 42854909155, :index 370}
+{:type :ok, :f :write, :value [12 2], :process 29, :time 42902896152, :position 6811491305919610882, :link 6811491301624643585, :index 371}
+{:type :invoke, :f :read, :value [11 nil], :process 21, :time 42968167629, :index 372}
+{:type :ok, :f :read, :value [11 2], :process 21, :time 42997528119, :position 6811491305919610882, :link 6811491297329676293, :index 373}
+{:type :info, :f :move, :process :nemesis, :time 43169693255, :index 374}
+{:type :info, :f :move, :process :nemesis, :time 43171251823, :error "indeterminate: ", :index 375}
+{:type :invoke, :f :read, :value [10 nil], :process 15, :time 43209961373, :index 376}
+{:type :ok, :f :read, :value [10 4], :process 15, :time 43237170497, :position 6811491305919610882, :link 6811491301624643587, :index 377}
+{:type :invoke, :f :read, :value [9 nil], :process 6, :time 43237451080, :index 378}
+{:type :ok, :f :read, :value [9 5], :process 6, :time 43268339718, :position 6811491305919610882, :link 6811491297329676294, :index 379}
+{:type :invoke, :f :write, :value [5 8], :process 3, :time 43326813093, :index 380}
+{:type :ok, :f :write, :value [5 8], :process 3, :time 43374378825, :position 6811491310214578177, :link 6811491305919610881, :index 381}
+{:type :invoke, :f :read, :value [5 nil], :process 3, :time 43472546119, :index 382}
+{:type :invoke, :f :write, :value [5 9], :process 12, :time 43498599589, :index 383}
+{:type :ok, :f :read, :value [5 8], :process 3, :time 43506800714, :position 6811491310214578177, :link 6811491310214578177, :index 384}
+{:type :ok, :f :write, :value [5 9], :process 12, :time 43543985864, :position 6811491310214578178, :link 6811491301624643588, :index 385}
+{:type :invoke, :f :write, :value [9 6], :process 6, :time 43564948942, :index 386}
+{:type :ok, :f :write, :value [9 6], :process 6, :time 43605307715, :position 6811491310214578179, :link 6811491305919610882, :index 387}
+{:type :invoke, :f :write, :value [10 5], :process 15, :time 43668686786, :index 388}
+{:type :info, :f :move, :process :nemesis, :time 43671643999, :index 389}
+{:type :invoke, :f :read, :value [12 nil], :process 29, :time 43671658825, :index 390}
+{:type :info, :f :move, :process :nemesis, :time 43676804630, :error "indeterminate: ", :index 391}
+{:type :ok, :f :write, :value [10 5], :process 15, :time 43712913695, :position 6811491310214578180, :link 6811491305919610882, :index 392}
+{:type :ok, :f :read, :value [12 2], :process 29, :time 43713888732, :position 6811491310214578179, :link 6811491305919610882, :index 393}
+{:type :invoke, :f :read, :value [10 nil], :process 24, :time 43785747145, :index 394}
+{:type :invoke, :f :read, :value [5 nil], :process 3, :time 43814544413, :index 395}
+{:type :ok, :f :read, :value [10 5], :process 24, :time 43820085526, :position 6811491310214578180, :link 6811491301624643586, :index 396}
+{:type :ok, :f :read, :value [5 9], :process 3, :time 43846841380, :position 6811491310214578180, :link 6811491310214578177, :index 397}
+{:type :invoke, :f :read, :value [9 nil], :process 17, :time 43859976526, :index 398}
+{:type :ok, :f :read, :value [9 6], :process 17, :time 43890429890, :position 6811491310214578180, :link 6811491305919610881, :index 399}
